@@ -16,7 +16,7 @@ namespace ConsoleUI
 
         public override void DriveVirtual()
         {
-            Console.WriteLine($"This {GetType().Name} is a {GetType().BaseType.Name} that is virtually in drive";
+            Console.WriteLine($"This {GetType().Name} is a {GetType().BaseType.Name} that is virtually in drive");
         }
     }
 }
